@@ -49,11 +49,18 @@ let popup = document.getElementById("popup");
 function openPopup0(){
     document.getElementById('popup').scrollIntoView();
     popup.classList.add("open-popup");
-    document.getElementById('imge').innerHTML = "<img src='img/E5.jpg' alt='Picture of MOH' width='200' height='200'>"
-    document.getElementById('title').innerHTML = 'Ontario Ministry of Health';
-    document.getElementById('description').innerHTML = "In my most recent job, I worked as an Application Programmer at the Ministry of Health. My main task involved migrating Python scripts from our on-premise servers to AWS. I used AWS Glue, Redshift, and Python for the job.";
+    document.getElementById('imge').innerHTML = "<img src='img/E4.jpg' alt='Picture of TNG' width='200' height='200'>"
+    document.getElementById('title').innerHTML = 'The Nationwide Group';
+    document.getElementById('description').innerHTML = "In my most recent job, I worked as a Data Operations Co-op. My main task involved scoring reports and helping appraisers with technical issues.";
 }
 function openPopup1(){
+    document.getElementById('popup').scrollIntoView();
+    popup.classList.add("open-popup");
+    document.getElementById('imge').innerHTML = "<img src='img/E5.jpg' alt='Picture of MOH' width='200' height='200'>"
+    document.getElementById('title').innerHTML = 'Ontario Ministry of Health';
+    document.getElementById('description').innerHTML = "During my third co-op, I worked as an Application Programmer at the Ministry of Health. My main task involved migrating Python scripts from our on-premise servers to AWS. I used AWS Glue, Redshift, and Python for the job.";
+}
+function openPopup2(){
     document.getElementById('popup').scrollIntoView();
     popup.classList.add("open-popup");
     document.getElementById('imge').innerHTML = "<img src='img/E4.jpg' alt='Picture of TNG' width='200' height='200'>"
@@ -61,7 +68,7 @@ function openPopup1(){
     document.getElementById('description').innerHTML = "During my second co-op, I worked as both a Quality Assurance Analyst and Data Operations Intern. My responsibilities included testing web features, organizing the company's backend, and creating UI/UX designs. In this job, I used SQL and Excel.";
 }
 
-function openPopup2(){
+function openPopup3(){
     document.getElementById('popup').scrollIntoView();
     popup.classList.add("open-popup");
     document.getElementById('imge').innerHTML = "<img src='img/E3.jpg' alt='Picture of UHN' width='200' height='200'>"
@@ -69,7 +76,7 @@ function openPopup2(){
     document.getElementById('description').innerHTML = "In my first co-op, I worked as a Web Developer at the University Health Network. My responsibilities included creating web features from UI/UX designs and migrating our team's backend to dotCMS. In my job, I used HTML, CSS, JavaScript, and dotCMS.";
 }
 
-function openPopup3(){
+function openPopup4(){
     document.getElementById('popup').scrollIntoView();
     popup.classList.add("open-popup");
     document.getElementById('imge').innerHTML = "<img src='img/E2.png' alt='Picture of Quartz Market' width='200' height='200'>"
@@ -77,7 +84,7 @@ function openPopup3(){
     document.getElementById('description').innerHTML = 'My second job was working as a Web Developer at a student start-up called Quartz Market. My responsibilities included designing and creating a website for our company which helped promote small businesses during the pandemic. In this job, I used HTML, CSS, and JavaScript. We won Company of the Year at the 2021 Junior Achievement Company Awards.';
 }
 
-function openPopup4(){
+function openPopup5(){
     document.getElementById('popup').scrollIntoView();
     popup.classList.add("open-popup");
     document.getElementById('imge').innerHTML = "<img src='img/E1.jpg' alt='Picture of JunoJA' width='200' height='200'>"
