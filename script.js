@@ -51,7 +51,7 @@ function openPopup0(){
     popup.classList.add("open-popup");
     document.getElementById('imge').innerHTML = "<img src='img/E4.jpg' alt='Picture of TNG' width='200' height='200'>"
     document.getElementById('title').innerHTML = 'The Nationwide Group';
-    document.getElementById('description').innerHTML = "In my most recent job, I worked as a Data Operations Co-op. My main task involved scoring reports and helping appraisers with technical issues.";
+    document.getElementById('description').innerHTML = "In my most recent job, I returned and worked as a Data Operations Co-op. My main tasks involved scoring reports and helping appraisers with technical issues.";
 }
 function openPopup1(){
     document.getElementById('popup').scrollIntoView();
